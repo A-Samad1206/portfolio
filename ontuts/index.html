@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/about.css" type="text/css" />
+    <link rel="stylesheet" href="css/services.css" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">imsamad.</a>
+      <div class="toogle"></div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="">Testimonial</a></li>
+        <li><a href="">Work</a></li>
+      </ul>
+    </header>
+
+    <section class="banner">
+      <div class="textBx">
+        <h2>
+          Hello, I'm <br />
+          <span> Abdus Samad.</span>
+        </h2>
+        <h3>I'm Full Stack Developer.</h3>
+        <a href="" class="btn">About Me </a>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx w50">
+          <h3>I'm a Front End Web Developer.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum hic
+            assumenda soluta. Sed natus autem ullam ad nisi reprehenderit
+            adipisci, reiciendis mollitia possimus fuga magnam ipsam nostrum
+            recusandae odio, qui eius dolorum placeat vitae! Natus aliquid dicta
+            delectus corrupti reprehenderit. Iusto ducimus et nostrum
+            exercitationem expedita neque molestias. Dolorum, laudantium porro
+            sit recusandae perferendis nesciunt, quis consectetur aspernatur rem
+            dignissimos atque facilis, quibusdam aliquid id temporibus!
+            Laboriosam repellendus sunt corporis enim provident aspernatur quas
+            porro quod voluptatem? Sequi, nisi labore? <br />
+            <br />
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
+            quia nobis itaque hic voluptatem tenetur vel doloremque nam ipsum
+            expedita. Sit ad dolor veritatis, ipsam quod molestiae mollitia
+          </p>
+        </div>
+        <div class="w50">
+          <img src="img/img1.jpg" alt="img1" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="heading white">
+        <h2>Our Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo.</p>
+      </div>
+      <div class="content">
+        <div class="servicesBx">
+          <img src="img/icon1.png" alt="icon1" />
+          <h2>Web Design</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sint
+            sunt hic harum nulla culpa voluptas, exercitationem sit, facilis
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon2.png" alt="icon1" />
+          <h2>Web Development</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sint
+            sunt hic harum nulla culpa voluptas, exercitationem sit, facilis
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon3.png" alt="icon1" />
+          <h2>Android App</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sint
+            sunt hic harum nulla culpa voluptas, exercitationem sit, facilis
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon4.png" alt="icon1" />
+          <h2>Photography</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sint
+            sunt hic harum nulla culpa voluptas, exercitationem sit, facilis
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon5.png" alt="icon1" />
+          <h2>Content Writing</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sint
+            sunt hic harum nulla culpa voluptas, exercitationem sit, facilis
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon6.png" alt="icon1" />
+          <h2>Video Editing</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sint
+            sunt hic harum nulla culpa voluptas, exercitationem sit, facilis
+          </p>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>

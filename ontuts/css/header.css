@@ -1,0 +1,40 @@
+.header {
+  /* color: #fff; */
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  z-index: 100;
+  transition: background 0.5s;
+}
+header .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+header ul {
+  /* position: relative; */
+  display: flex;
+  list-style: none;
+}
+header ul li a {
+  /* position: relative */
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+}
+
+header.sticky {
+  background: #fff;
+  /* padding: 40px 100px; */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+header.sticky .logo,
+header.sticky a {
+  color: #111;
+}

@@ -1,0 +1,40 @@
+.navbar {
+  color: #fff;
+  background: #047aed;
+  padding: 15px;
+  transition: background-color 500ms;
+}
+.navbar .flex {
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul a {
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: color 250ms;
+  font-size: 15px;
+}
+.navbar a:hover {
+  /* border-bottom: 2px solid black; */
+  color: #ddd;
+}
+.navbar.sticky {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  z-index: 10000;
+  border-bottom: 1px solid #ddd;
+}
+.navbar.sticky ul a,
+.navbar.sticky .logo {
+  color: var(--primary-color);
+}
+.navbar.sticky ul a:hover {
+  color: darkblue;
+}

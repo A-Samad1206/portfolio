@@ -1,0 +1,16 @@
+.languages .flex {
+  flex-wrap: wrap;
+}
+.languages .card {
+  margin: 5px;
+  transition: transform 500ms;
+  cursor: pointer;
+}
+
+.languages .card h4 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+.languages .card:hover {
+  transform: translateY(-5px);
+}
