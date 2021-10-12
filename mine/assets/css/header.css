@@ -12,7 +12,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1111;
+  z-index: var(--z-fixed);
   background-color: var(--first-color-lighten);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -24,9 +24,10 @@
 }
 
 .nav__menu {
+  border: 4px solid black;
   position: fixed;
   top: 0;
-  left: -100%;
+  left: 0;
   width: 90%;
   height: 100vh;
   padding: 3rem;
@@ -39,9 +40,9 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  cursor: pointer;
   font-size: 2rem;
-  color: white;
+  color: var(--first-color-dark);
+  cursor: pointer;
   transition: 200ms;
 }
 .nav__close:hover {
@@ -65,12 +66,6 @@
   color: var(--first-color-dark);
   font-size: 1.3rem;
   cursor: pointer;
-}
-.xxyz {
-  border: 2px solid black;
-}
-.xyzd {
-  border: 2px dashed black;
 }
 .show {
   left: 0;
